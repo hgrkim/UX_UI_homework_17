@@ -6,6 +6,8 @@ body{
 
 .logoname{
     margin-bottom: 0px;
+    display:inline-block;
+    justify-content: center;
 }
 
 .logotitle{
@@ -66,7 +68,7 @@ body{
     align-items: center;
     flex-wrap: wrap;
     padding-top: 30px;
-    background:white
+    background:white;
 }
 
 .container .card{
@@ -79,7 +81,10 @@ body{
 
 .container .text{
     max-width: 420px;
-    padding: 20px;
+    padding: 0px 20px;
+    display:inline-block;
+    justify-content: center;
+    
 
 }
 
@@ -145,4 +150,6 @@ p{
 }
 
 
-
+.text p{
+    margin:0px;
+}
