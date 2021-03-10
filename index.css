@@ -1,3 +1,16 @@
+body{
+    margin-left: 15%;
+    margin-right: 15%
+}
+
+
+.logoname{
+    margin-bottom: 0px;
+}
+
+.logotitle{
+    margin-top:0px;
+}
 
 .logo img{
     width: 100px;
@@ -41,9 +54,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    min-height: 100vh;
-    margin:0;
-    padding: 0;
+    margin:0px;
+    padding: 0px;
 }
 
 .container{
@@ -53,6 +65,8 @@
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
+    padding-top: 30px;
+    background:white
 }
 
 .container .card{
@@ -65,15 +79,14 @@
 
 .container .text{
     max-width: 420px;
-    padding: 20px
+    padding: 20px;
+
 }
 
-.container .card .images{
-    max-width: 900 px;
-}
 
 .container .card .images img{
     max-width: 100%;
+    max-height: 90%;
 }
 
 
@@ -86,29 +99,50 @@ p{
     font-family: Helvetica;
 }
 
-.hello{
+.grace{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    width: 10%;
-
+    width: 30%;
+    padding-top: 30px;
 }
 
 
-footer{
+.footereverything{
+    position: relative;
+    width: 800px;
     display: flex;
-    flex-direction: column;
+    justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    padding-top: 20px;
+    background:white;
+    font-family: Helvetica;
+    float: left;
+    left: 10.35%;
 }
 
-footer h3{
-    font-weight: bold;
-    font-family: Helvetica;
+
+
+.contactlinks h3{
+    position: absolute;
+    margin-left: auto;
+    margin-right: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    text-align: center;
+    padding-top:50px;
 }
 
-footer h6{
-    font-weight: normal;
-    font-family: Helvetica;
+.contactlinks li{
+    padding: 5px;
+    display: inline-block;
+    position: relative;
+    left: 132%;
+    padding-top: 50px;
 }
+
 
 
